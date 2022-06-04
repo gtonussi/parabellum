@@ -1,7 +1,7 @@
 import * as S from './Button.styles'
 import * as T from './Button.types'
 
-const Button: React.FC<T.ButtonProps> = ({
+export const Button: React.FC<T.ButtonProps> = ({
   children,
   fullWidth,
   size = 'large',
@@ -13,5 +13,3 @@ const Button: React.FC<T.ButtonProps> = ({
     </S.Button__Container>
   )
 }
-
-export default Button

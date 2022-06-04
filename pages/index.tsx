@@ -2,7 +2,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-import Button from '../components/Button'
+import { Leadspace } from '../components'
 
 import * as S from '../styles/pages/home'
 
@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <Button>hehe</Button>
+      <Leadspace />
     </>
   )
 }

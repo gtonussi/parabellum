@@ -5,11 +5,21 @@ import * as T from './Button.types'
 const modifiers = {
   primary: css`
     background-color: ${({ theme }) => `${theme.colors.primary}`};
+    border-color: ${({ theme }) => `${theme.colors.primary}`};
     color: ${({ theme }) => `${theme.colors.text_01}`};
+    &:hover {
+      background-color: ${({ theme }) => `${theme.colors.secondary}`};
+      color: ${({ theme }) => `${theme.colors.text_03}`};
+    }
   `,
   secondary: css`
     background-color: ${({ theme }) => `${theme.colors.secondary}`};
+    border-color: ${({ theme }) => `${theme.colors.primary}`};
     color: ${({ theme }) => `${theme.colors.text_03}`};
+    &:hover {
+      background-color: ${({ theme }) => `${theme.colors.primary}`};
+      color: ${({ theme }) => `${theme.colors.text_01}`};
+    }
   `,
   xsmall: css`
     height: 28px;
