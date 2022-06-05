@@ -1,3 +1,5 @@
 export * from './Button'
 export * from './Center'
 export * from './Leadspace'
+export * from './MaxWidth'
+export * from './Separator'

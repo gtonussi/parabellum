@@ -3,11 +3,10 @@ import styled from 'styled-components'
 export const Center__Container = styled.div`
   height: 100%;
   margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 48px;
+  padding: 0 16px;
   width: 100%;
 
-  @media (max-width: 1023px) {
-    padding: 0 24px;
+  @media (min-width: 660px) {
+    padding: 0 32px;
   }
 `
