@@ -1,6 +1,7 @@
 export * from './Button'
 export * from './Card'
 export * from './Center'
+export * from './Footer'
 export * from './Leadspace'
 export * from './MaxWidth'
 export * from './Section'

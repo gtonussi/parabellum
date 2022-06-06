@@ -12,6 +12,8 @@ const theme = {
     text_02: '#EDDACE',
     text_03: '#1E160B',
     whatsapp: '#23B33A',
+    lightgray: '#F4F4F4',
+    darkgray: '#282828',
   },
 }
 

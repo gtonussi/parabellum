@@ -1,8 +1,10 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import { AiOutlineMail } from 'react-icons/ai'
+import { FaWhatsapp } from 'react-icons/fa'
 
-import { Card, Leadspace, MaxWidth, Section, WhatsappButton } from '../components'
+import { Card, Footer, Leadspace, MaxWidth, Section, WhatsappButton } from '../components'
 import { cards } from '../contents/cards'
 
 import * as S from '../styles/pages/home'
@@ -45,10 +47,33 @@ export default function Home() {
       </Section>
 
       <Section bgColor="military_04">
-        <MaxWidth>
-          <S.ContactContainer>d</S.ContactContainer>
+        <MaxWidth center padding>
+          <S.ContactContainer>
+            <div>
+              <S.ContactContainer__TextWrapper>
+                <h4>ASSESSORIA BÉLICA</h4>
+                <h4>
+                  <span style={{ fontWeight: '400' }}>SI VIS PACEM, PARA BELLUM</span>
+                </h4>
+                <a href="#">
+                  <AiOutlineMail />
+                  <h4>(11) 9 9999-9999</h4>
+                </a>
+                <a href="#">
+                  <FaWhatsapp />
+                  <h4>xxxxx@xxxxx.com.br</h4>
+                </a>
+              </S.ContactContainer__TextWrapper>
+
+              <S.ContactContainer__ImageWrapper>
+                <img src="./images/logo/mv-bellica-logo.png" alt="Logo MV Bellica" />
+              </S.ContactContainer__ImageWrapper>
+            </div>
+          </S.ContactContainer>
         </MaxWidth>
       </Section>
+
+      <Footer />
     </>
   )
 }

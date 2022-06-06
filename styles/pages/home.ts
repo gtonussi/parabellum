@@ -81,9 +81,81 @@ export const WhatsappButtonWrapper = styled.div`
 `
 
 export const ContactContainer = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: center;
   padding: 48px 0;
+  width: 100%;
+
+  > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 40%;
+    width: 100%;
+
+    @media (min-width: 660px) {
+      flex-direction: row;
+    }
+  }
 
   @media (min-width: 1024px) {
     padding: 64px 0;
+  }
+`
+
+export const ContactContainer__TextWrapper = styled.div`
+  h4 {
+    color: ${({ theme }) => theme.colors.text_01};
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  > a {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+
+    > h4 {
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    > svg {
+      color: ${({ theme }) => theme.colors.text_01};
+      height: auto;
+      margin-right: 0.25rem;
+      width: 16px;
+    }
+  }
+
+  h4 + h4 {
+    margin-top: 0.25rem;
+  }
+
+  h4 + a {
+    margin-top: 1.25rem;
+  }
+
+  a + a {
+    margin-top: 0.5rem;
+  }
+`
+
+export const ContactContainer__ImageWrapper = styled.div`
+  margin-top: 32px;
+
+  @media (min-width: 660px) {
+    margin-top: 0;
+  }
+
+  img {
+    height: auto;
+    width: 180px;
   }
 `
