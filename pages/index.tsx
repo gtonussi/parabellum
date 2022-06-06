@@ -61,11 +61,11 @@ export default function Home() {
                   <span style={{ fontWeight: '400' }}>SI VIS PACEM, PARA BELLUM</span>
                 </h4>
                 <a href="#">
-                  <AiOutlineMail />
+                  <FaWhatsapp />
                   <h4>(11) 9 9999-9999</h4>
                 </a>
                 <a href="#">
-                  <FaWhatsapp />
+                  <AiOutlineMail />
                   <h4>xxxxx@xxxxx.com.br</h4>
                 </a>
               </S.ContactContainer__TextWrapper>
