@@ -12,9 +12,10 @@ export const WhatsappButton = () => {
   return (
     <S.WhatsappButton__Container>
       <Button size={width > 400 ? 'xlarge' : 'large'} variation="whatsapp">
-        ENTRE EM {!(width > 400) && <br />} CONTATO AGORA!
+        ENTRE EM {width < 400 && <br />} CONTATO AGORA!
         <span style={{ paddingRight: width > 400 ? '40px' : '28px' }}></span>
       </Button>
+
       <S.WhatsappButton__IconsWrapper>
         <ImWhatsapp />
         <RiWhatsappFill />

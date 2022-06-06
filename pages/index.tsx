@@ -28,7 +28,7 @@ export default function Home() {
 
       <S.Section bgColor="military_01">
         <MaxWidth center padding>
-          <S.WhatsAppContainer>
+          <S.WhatsAppContainer data-aos="fade-up" data-aos-offset="50">
             <h4>
               Somos uma assessoria especializada na realização de trâmites legais para concessão da
               posse e porte de arma de fogo, transferências, apostilamentos, renovação de registro,

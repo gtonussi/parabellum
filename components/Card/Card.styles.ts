@@ -2,8 +2,6 @@ import styled from 'styled-components'
 
 export const Card__Container = styled.article`
   background-color: ${({ theme }) => theme.colors.military_06};
-  border-radius: 12px;
-  border: ${({ theme }) => `6px solid ${theme.colors.text_02}`};
   box-shadow: ${({ theme }) => `8px 8px 24px ${theme.colors.text_03}`};
   display: flex;
   flex-direction: column;
@@ -14,6 +12,7 @@ export const Card__Container = styled.article`
   width: 280px;
 
   @media (min-width: 660px) {
+    // Height of cards will be defined by Container.
     min-height: 0;
   }
 `
