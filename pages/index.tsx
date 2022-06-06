@@ -1,5 +1,6 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Head from 'next/head'
 import { useEffect } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaWhatsapp } from 'react-icons/fa'
@@ -16,6 +17,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>MV Belica</title>
+      </Head>
+
       <Leadspace />
 
       <Section bgColor="military_05">
