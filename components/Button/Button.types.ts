@@ -6,6 +6,6 @@ export type ButtonProps = {
   children?: ReactNode
   fullWidth?: boolean
   isLoading?: boolean
-  size?: 'xsmall' | 'small' | 'medium' | 'large'
-  variation?: 'primary' | 'secondary'
+  size?: 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge'
+  variation?: 'primary' | 'secondary' | 'whatsapp'
 } & ButtonTypes

@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 
 export type MaxWidthProps = {
+  center?: boolean
   children?: ReactNode
-  noPadding?: boolean
+  padding?: boolean
 }

@@ -1,5 +1,7 @@
 export * from './Button'
+export * from './Card'
 export * from './Center'
 export * from './Leadspace'
 export * from './MaxWidth'
 export * from './Separator'
+export * from './WhatsappButton'

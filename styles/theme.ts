@@ -11,6 +11,7 @@ const theme = {
     text_01: '#FCF8F7',
     text_02: '#EDDACE',
     text_03: '#1E160B',
+    whatsapp: '#23B33A',
   },
 }
 
