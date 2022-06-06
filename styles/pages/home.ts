@@ -1,19 +1,5 @@
 import styled from 'styled-components'
 
-type Section = {
-  bgColor:
-    | 'military_01'
-    | 'military_02'
-    | 'military_03'
-    | 'military_04'
-    | 'military_05'
-    | 'military_06'
-}
-
-export const Section = styled.section<Section>`
-  background-color: ${({ theme, bgColor }) => theme.colors[bgColor]};
-`
-
 export const CardsContainer = styled.div`
   align-items: center;
   display: flex;
@@ -92,4 +78,12 @@ export const WhatsAppContainer = styled.div`
 export const WhatsappButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
+`
+
+export const ContactContainer = styled.div`
+  padding: 48px 0;
+
+  @media (min-width: 1024px) {
+    padding: 64px 0;
+  }
 `

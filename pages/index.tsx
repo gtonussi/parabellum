@@ -2,7 +2,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-import { Card, Leadspace, MaxWidth, WhatsappButton } from '../components'
+import { Card, Leadspace, MaxWidth, Section, WhatsappButton } from '../components'
 import { cards } from '../contents/cards'
 
 import * as S from '../styles/pages/home'
@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Leadspace />
 
-      <S.Section bgColor="military_05">
+      <Section bgColor="military_05">
         <MaxWidth center padding>
           <S.CardsContainer data-aos="fade-up" data-aos-offset="50">
             {cards.map((card) => (
@@ -24,9 +24,9 @@ export default function Home() {
             ))}
           </S.CardsContainer>
         </MaxWidth>
-      </S.Section>
+      </Section>
 
-      <S.Section bgColor="military_01">
+      <Section bgColor="military_01">
         <MaxWidth center padding>
           <S.WhatsAppContainer data-aos="fade-up" data-aos-offset="50">
             <h4>
@@ -34,13 +34,21 @@ export default function Home() {
               posse e porte de arma de fogo, transferências, apostilamentos, renovação de registro,
               emissão de CR de Atirador, Caçador e Colecionador.
             </h4>
+
             <h2>QUER SABER MAIS?</h2>
+
             <S.WhatsappButtonWrapper>
               <WhatsappButton />
             </S.WhatsappButtonWrapper>
           </S.WhatsAppContainer>
         </MaxWidth>
-      </S.Section>
+      </Section>
+
+      <Section bgColor="military_04">
+        <MaxWidth>
+          <S.ContactContainer>d</S.ContactContainer>
+        </MaxWidth>
+      </Section>
     </>
   )
 }
