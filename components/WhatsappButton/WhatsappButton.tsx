@@ -10,7 +10,15 @@ export const WhatsappButton = () => {
   const { width } = useWindowSize()
 
   return (
-    <S.WhatsappButton__Container>
+    <S.WhatsappButton__Container
+      onClick={() =>
+        window.open(
+          'https://api.whatsapp.com/send?phone=5511957488059',
+          '_blank',
+          'noopener, noreferrer'
+        )
+      }
+    >
       <Button size={width > 400 ? 'xlarge' : 'large'} variation="whatsapp">
         ENTRE EM {width < 400 && <br />} CONTATO AGORA!
         <span style={{ paddingRight: width > 400 ? '40px' : '28px' }}></span>

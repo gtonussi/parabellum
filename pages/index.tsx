@@ -61,13 +61,13 @@ export default function Home() {
                 <h4>
                   <span style={{ fontWeight: '400' }}>SI VIS PACEM, PARA BELLUM</span>
                 </h4>
-                <a href="#">
+                <a href="https://api.whatsapp.com/send?phone=5511957488059">
                   <FaWhatsapp />
-                  <h4>(11) 9 9999-9999</h4>
+                  <h4>(11) 9 5748-8059</h4>
                 </a>
-                <a href="#">
+                <a href="mailto: atendimento@mvassessoriabelica.com">
                   <AiOutlineMail />
-                  <h4>xxxxx@xxxxx.com.br</h4>
+                  <h4 style={{ paddingBottom: '0.125rem' }}>atendimento@mvassessoriabelica.com</h4>
                 </a>
               </S.ContactContainer__TextWrapper>
 
