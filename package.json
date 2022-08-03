@@ -9,7 +9,6 @@
     "export": "next export"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.32.0",
     "aos": "^2.3.4",
     "next": "latest",
     "react": "^18.1.0",

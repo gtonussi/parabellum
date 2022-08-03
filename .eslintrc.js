@@ -28,31 +28,44 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
-    'react/jsx-filename-extension': [1, {
-      extensions: ['.ts', '.tsx']
-    }],
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.ts', '.tsx'],
+      },
+    ],
     'import/extensions': 'off',
     'react/prop-types': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
-    'react/jsx-props-no-spreading': ['error', {
-      custom: 'ignore'
-    }],
+    'react/jsx-props-no-spreading': [
+      'error',
+      {
+        custom: 'ignore',
+      },
+    ],
     'prettier/prettier': 'error',
     'react/no-unescaped-entities': 'off',
-    'import/no-cycle': [0, {
-      ignoreExternal: true
-    }],
+    'import/no-cycle': [
+      0,
+      {
+        ignoreExternal: true,
+      },
+    ],
     'prefer-const': 'off',
     'no-use-before-define': 'off',
-    'prettier/prettier': ['error', {}, {
-      usePrettierrc: true
-    }],
+    'prettier/prettier': [
+      'error',
+      {},
+      {
+        usePrettierrc: true,
+      },
+    ],
     '@typescript-eslint/no-use-before-define': [
       'error',
       {
         functions: false,
         classes: false,
-        variables: true
+        variables: true,
       },
     ],
   },
