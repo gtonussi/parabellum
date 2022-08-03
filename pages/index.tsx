@@ -39,7 +39,8 @@ export default function Home() {
             <h4>
               Somos uma assessoria especializada na realização de trâmites legais para concessão da
               posse e porte de arma de fogo, transferências, apostilamentos, renovação de registro,
-              emissão de CR de Atirador, Caçador e Colecionador.
+              emissão de CR de Atirador, Caçador e Colecionador. Também prestamos serviços para
+              defesa e diligências de CACs.
             </h4>
 
             <h2>QUER SABER MAIS?</h2>

@@ -32,6 +32,16 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=VT323&display=swap"
             rel="stylesheet"
           />
+          <link rel="canonical" href="https://www.mvassessoriabelica.com" />
+          <meta name="description" content="Conquiste sua posse, porte ou CR." />
+          <meta
+            property="og:image"
+            content="https://www.mvassessoriabelica.com/images/logo/mv-bellica-logo.png"
+          />
+          <meta property="og:image:width" content="1330" />
+          <meta property="og:image:height" content="900" />
+          <meta property="og:title" content="MV Belica" />
+          <meta property="og:description" content="Conquiste sua posse, porte ou CR." />
         </Head>
         <body>
           <Main />
